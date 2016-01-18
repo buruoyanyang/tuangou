@@ -15,6 +15,8 @@
 		E393808C1C4D24C000D9C77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E393808A1C4D24C000D9C77E /* LaunchScreen.storyboard */; };
 		E39380971C4D24C000D9C77E /* tuangouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E39380961C4D24C000D9C77E /* tuangouTests.m */; };
 		E39380A21C4D24C000D9C77E /* tuangouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E39380A11C4D24C000D9C77E /* tuangouUITests.m */; };
+		E39380B01C4D24D100D9C77E /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = E39380AF1C4D24D100D9C77E /* tgs.plist */; };
+		E39380B31C4D305C00D9C77E /* GroupBuying.m in Sources */ = {isa = PBXBuildFile; fileRef = E39380B21C4D305C00D9C77E /* GroupBuying.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E393809D1C4D24C000D9C77E /* tuangouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuangouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39380A11C4D24C000D9C77E /* tuangouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tuangouUITests.m; sourceTree = "<group>"; };
 		E39380A31C4D24C000D9C77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39380AF1C4D24D100D9C77E /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = tgs.plist; path = "../../../../Downloads/day07（自定义cell）/资料/团购/tgs.plist"; sourceTree = "<group>"; };
+		E39380B11C4D305C00D9C77E /* GroupBuying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupBuying.h; sourceTree = "<group>"; };
+		E39380B21C4D305C00D9C77E /* GroupBuying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupBuying.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,8 @@
 				E39380881C4D24C000D9C77E /* Assets.xcassets */,
 				E393808A1C4D24C000D9C77E /* LaunchScreen.storyboard */,
 				E393808D1C4D24C000D9C77E /* Info.plist */,
+				E39380B11C4D305C00D9C77E /* GroupBuying.h */,
+				E39380B21C4D305C00D9C77E /* GroupBuying.m */,
 				E393807C1C4D24C000D9C77E /* Supporting Files */,
 			);
 			path = tuangou;
@@ -117,6 +124,7 @@
 		E393807C1C4D24C000D9C77E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E39380AF1C4D24D100D9C77E /* tgs.plist */,
 				E393807D1C4D24C000D9C77E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E393808C1C4D24C000D9C77E /* LaunchScreen.storyboard in Resources */,
+				E39380B01C4D24D100D9C77E /* tgs.plist in Resources */,
 				E39380891C4D24C000D9C77E /* Assets.xcassets in Resources */,
 				E39380871C4D24C000D9C77E /* Main.storyboard in Resources */,
 			);
@@ -276,6 +285,7 @@
 				E39380841C4D24C000D9C77E /* ViewController.m in Sources */,
 				E39380811C4D24C000D9C77E /* AppDelegate.m in Sources */,
 				E393807E1C4D24C000D9C77E /* main.m in Sources */,
+				E39380B31C4D305C00D9C77E /* GroupBuying.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
